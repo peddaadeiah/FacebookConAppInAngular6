@@ -34,7 +34,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
         }
         
  3.Create the components
-     Run `ng generate component component-name` to generate a new componennt..
+ Run `ng generate component component-name` to generate a new componennt..
        I creted two components in this application.
        those compnents are LoginFacebookComponent,AddEmployeeDetailComponent.
        this component is LoginFacebookComponent for connecting facebook and navigate to AddEmployeeDetailComponent
@@ -42,11 +42,13 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
     
  4 Run  this ngx-order-pipe in node command promt for sorting the table.
  
-   -add belloew code in app .module.ts
+   Add belloew code in app .module.ts
    import { OrderModule } from 'ngx-order-pipe';
    add imports: [OrderModule] in @NgModule decorator
+   
    -add below code in your component ts file
    import { OrderPipe } from 'ngx-order-pipe';
+   
    constructor(orderPipe: OrderPipe){
    orderPipe.transform(objectsofArrayjson);
   }
