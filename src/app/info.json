@@ -1,0 +1,64 @@
+{
+  "employee" : [
+    {
+  	"id": "1",
+  	"name": "abcd",
+  	"email": "mail@mail.com",
+  		"colony": "pqrs",
+  		"street": "NPA-5",
+  		"city": "pune", 
+  	"birthday": "10-12-1993",
+  	"gender": "female"
+  },
+  {
+  "id": "2",
+  "name": "manohar",
+  "email": "anup@mail.com",
+    "colony": "pqrs",
+    "street": "NPA-5",
+    "city": "Mumbai",
+  "birthday": "01-12-2005",
+  "gender": "male"
+},
+{
+  "id": "3",
+  "name": "adi",
+  "email": "adi@adi.com",
+    "colony": "pqrs",
+    "street": "NPA-5",
+    "city": "Bhilai",
+  "birthday": "18-10-2003",
+  "gender": "male"
+},
+{
+  "id": "4",
+  "name": "raju",
+  "email": "mail@raju.com",
+    "colony": "pqrs",
+    "street": "NPA-5",
+    "city": "pune",
+  "birthday": "24-12-1995",
+  "gender": "male"
+},
+{
+"id": "5",
+"name": "anup",
+"email": "anup@mail.com",
+  "colony": "pqrs",
+  "street": "NPA-5",
+  "city": "pune",
+"birthday": "19-04-2008",
+"gender": "male"
+},
+{
+"id": "6",
+"name": "sharma",
+"email": "sharma@mail.com",
+  "colony": "pqrs",
+  "street": "NPA-5",
+  "city": "pune",
+"birthday": "10-12-2010",
+"gender": "male"
+}
+]
+}
