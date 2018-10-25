@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.3.
 
-1. Create a facebook application**
+1. Create a facebook application in Angular6
 
     Goto developer.facebook.com
     Login with your facebook credential.
@@ -38,8 +38,28 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   Run `ng generate component component-name` to generate a new componennt
    I creted two components in this application
    those compnents are LoginFacebookComponent,AddEmployeeDetailComponent
-    this component is LoginFacebookComponent fon connecting facebook and navigate to AddEmployeeDetailComponent
+    this component is LoginFacebookComponent for connecting facebook and navigate to AddEmployeeDetailComponent
     this component is AddEmployeeDetailComponent for diaplaying employee details And adding employee details
+    
+   4 Run  this ngx-order-pipe in node command promt for sorting the table
+   ->add belloew code in app .module.ts
+   import { OrderModule } from 'ngx-order-pipe';
+   add imports: [OrderModule] in @NgModule decorator
+   ->add below code in your component ts file
+   import { OrderPipe } from 'ngx-order-pipe';
+   constructor(orderPipe: OrderPipe){
+   orderPipe.transform(objectsofArrayjson);
+  }
+  key: string = 'name';
+    sort(key){
+       this.key = key;
+       this.reverse = !this.reverse;
+     }
+  _Add bellow code in your html file of your component
+  <th [class.active]="order === 'key'"
+    (click)="setOrder('key')">ID<span [hidden]="reverse">▼</span
+        ><span [hidden]="!reverse">▲</span></th>
+   <tr *ngFor = "objects | orderBy: order:reverse:'case-insensitive'"></tr>
           
  5. Run ng serve for Compile and Run application
 
