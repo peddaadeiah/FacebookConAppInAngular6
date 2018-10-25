@@ -42,10 +42,10 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
    this component is AddEmployeeDetailComponent for diaplaying employee details And adding employee details
     
    4 Run  this ngx-order-pipe in node command promt for sorting the table
-   ->add belloew code in app .module.ts
+   -add belloew code in app .module.ts
    import { OrderModule } from 'ngx-order-pipe';
    add imports: [OrderModule] in @NgModule decorator
-   ->add below code in your component ts file
+   -add below code in your component ts file
    import { OrderPipe } from 'ngx-order-pipe';
    constructor(orderPipe: OrderPipe){
    orderPipe.transform(objectsofArrayjson);
@@ -55,7 +55,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
        this.key = key;
        this.reverse = !this.reverse;
      }
-  _Add bellow code in your html file of your component
+  -Add bellow code in your html file of your component
   <th [class.active]="order === 'key'"
     (click)="setOrder('key')">ID<span [hidden]="reverse">▼</span
         ><span [hidden]="!reverse">▲</span></th>
