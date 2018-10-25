@@ -38,8 +38,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   Run `ng generate component component-name` to generate a new componennt
    I creted two components in this application
    those compnents are LoginFacebookComponent,AddEmployeeDetailComponent
-    this component is LoginFacebookComponent for connecting facebook and navigate to AddEmployeeDetailComponent
-    this component is AddEmployeeDetailComponent for diaplaying employee details And adding employee details
+   this component is LoginFacebookComponent for connecting facebook and navigate to AddEmployeeDetailComponent
+   this component is AddEmployeeDetailComponent for diaplaying employee details And adding employee details
     
    4 Run  this ngx-order-pipe in node command promt for sorting the table
    ->add belloew code in app .module.ts
