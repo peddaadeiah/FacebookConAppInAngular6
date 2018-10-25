@@ -3,7 +3,6 @@ import {Http, Response} from '@angular/http';
 import { map } from 'rxjs/operators';
 import {EmployeeDetailModel} from 'src/app/EmployeeDetailModel'
 import { OrderPipe } from 'ngx-order-pipe';
-import { FilterPipe } from 'src/app/filter.pipe';
 @Component({
   selector: 'app-add-employee-detail',
   templateUrl: './add-employee-detail.component.html',
