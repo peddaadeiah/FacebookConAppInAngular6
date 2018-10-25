@@ -49,15 +49,19 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
    constructor(orderPipe: OrderPipe){
    orderPipe.transform(objectsofArrayjson);
   }
+  
   key: string = 'name';
     sort(key){
        this.key = key;
        this.reverse = !this.reverse;
      }
+     
   -Add bellow code in your html file of your component
+  
   <th [class.active]="order === 'key'"
     (click)="setOrder('key')">ID<span [hidden]="reverse">▼</span
         ><span [hidden]="!reverse">▲</span></th>
+        
    <tr *ngFor = "objects | orderBy: order:reverse:'case-insensitive'"></tr>
           
  5. Run ng serve for Compile and Run application
