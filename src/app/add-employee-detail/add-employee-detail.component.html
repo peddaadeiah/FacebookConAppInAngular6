@@ -90,7 +90,7 @@
     (click)="setOrder('gender')">Gender<span [hidden]="reverse">▼</span
         ><span [hidden]="!reverse">▲</span></td>
   </thead>
-  <tr *ngFor = "let emp of data.employee | orderBy: order:reverse:'case-insensitive'">
+  <tr *ngFor = "let emp of data.employee | orderBy: order:reverse:'case-insensitive'| filter: 'name': searchText">
     <td> {{emp.id}} </td>
     <td>{{emp.name}}</td>
     <td>{{emp.email}}</td>
