@@ -34,7 +34,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
         }
         
  
-  3 Create the components
+  3. Create the components
      Run `ng generate component component-name` to generate a new componennt
        I creted two components in this application
        those compnents are LoginFacebookComponent,AddEmployeeDetailComponent
