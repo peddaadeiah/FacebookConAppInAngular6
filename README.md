@@ -34,9 +34,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
         }
         
  3.Create the components
- Run `ng generate component component-name` to generate a new componennt
- I creted two components in this application.those compnents are LoginFacebookComponent,AddEmployeeDetailComponent. LoginFacebookComponent is for connecting facebook and navigate to AddEmployeeDetailComponent
-AddEmployeeDetailComponent is for diaplaying employee details And adding employee details
+      Run `ng generate component component-name` to generate a new componennt
+                 I creted two components in this application.those compnents are LoginFacebookComponent,AddEmployeeDetailComponent.                        LoginFacebookComponent is for connecting facebook and navigate to AddEmployeeDetailComponent
+                    AddEmployeeDetailComponent is for diaplaying employee details And adding employee details
     
  4 Run  this ngx-order-pipe in node command promt for sorting the table.
  
@@ -59,11 +59,11 @@ AddEmployeeDetailComponent is for diaplaying employee details And adding employe
      
   Add bellow code in your html file of your component
   
-  <th [class.active]="order === 'key'"
-    (click)="setOrder('key')">ID<span [hidden]="reverse"></span
-        ><span [hidden]="!reverse"></span></th>
+               <th [class.active]="order === 'key'"
+                (click)="setOrder('key')">ID<span [hidden]="reverse"></span>
+                 <span [hidden]="!reverse"></span></th>
         
-   <tr *ngFor = "objects | orderBy: order:reverse:'case-insensitive'"></tr>
+                <tr *ngFor = "objects | orderBy: order:reverse:'case-insensitive'"></tr>
           
  5. Run ng serve for Compile and Run application
 
