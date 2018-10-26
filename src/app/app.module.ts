@@ -7,7 +7,7 @@ import { AddEmployeeDetailComponent } from './add-employee-detail/add-employee-d
 import { FormsModule }   from '@angular/forms';
 import {HttpModule} from '@angular/http';
 import {HttpClientModule} from '@angular/common/http';
-import { FilterPipe } from 'src/app/filter.pipe';
+import { FilterPipe } from ''./filter.pipe';';
 import { OrderModule } from 'ngx-order-pipe';
 import {
   SocialLoginModule,
